@@ -8,7 +8,5 @@ String getLocationErrorMsg(LocationErrorType locationErrorType) {
     case LocationErrorType.permissionDeniedForever:
       return ErrorConstants.permissionDeniedForever;
 
-    default:
-      return ErrorConstants.somethingWentWrong;
-  }
+    }
 }

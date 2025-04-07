@@ -45,7 +45,5 @@ String mapAuthFailureToMessage(AuthFailureType failureType) {
       return AuthFailureMessages.credentialAlreadyInUse;
     case AuthFailureType.invalidVerificationCode:
       return AuthFailureMessages.invalidVerificationCode;
-    default:
-      return AuthFailureMessages.unknown;
-  }
+    }
 }
