@@ -19,7 +19,5 @@ String mapDbFailureToMessage(DbFailureType failureType) {
       return DbFailureMessages.operationCancelled;
     case DbFailureType.invalidQuery:
       return DbFailureMessages.invalidQuery;
-    default:
-      return "An unknown error occurred.";
-  }
+    }
 }

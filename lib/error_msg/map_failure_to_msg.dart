@@ -7,21 +7,21 @@ String mapFailureToMessage(IFailure failure) {
   debugPrint(
       'MapFailureToMsg | mapFailureToMessage | failure: ${failure.props}');
   switch (failure.runtimeType) {
-    case AuthFailure:
+    case AuthFailure _:
       // Casting to AuthFailure
       AuthFailure authFailure = failure as AuthFailure;
       return mapAuthFailureToMessage(authFailure.failureType);
-    case DbFailure:
+    case DbFailure _:
       // Casting to DbFailure
       DbFailure dbFailure = failure as DbFailure;
       return mapDbFailureToMessage(dbFailure.failureType);
-    case ServerFailure:
+    case ServerFailure _:
       return ErrorConstants.somethingWentWrong;
-    case CacheFailure:
+    case CacheFailure _:
       return ErrorConstants.CACHE_FAILURE_MESSAGE;
-    case FirebaseAuthFailure:
+    case FirebaseAuthFailure _:
       return ErrorConstants.wrongUsernamePassword;
-    case DynamicLinkError:
+    case DynamicLinkError _:
       return ErrorConstants.sangatNotExist;
 
     default:
