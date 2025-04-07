@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.0.3
+- added example file
+
+
 ## 0.0.2
 - Added predefined authentication failure messages.
 - Added database failure messages.
