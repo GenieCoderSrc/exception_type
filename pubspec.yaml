@@ -1,6 +1,6 @@
 name: exception_type
 description: "exception_type is a Dart package that provides a structured way to handle failures and errors in Flutter applications. It includes predefined authentication, database, API, and network failure messages, along with utility functions to map failures to user-friendly messages."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/GenieCoderSrc/exception_type
 repository: https://github.com/GenieCoderSrc/exception_type
 issue_tracker: https://github.com/GenieCoderSrc/exception_type/issues
