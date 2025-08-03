@@ -9,7 +9,4 @@ class WidgetFailure extends IFailure {
   List<Object?> get props => [dbType];
 }
 
-enum WidgetFailureType {
-  bindingFailure,
-  unKnown,
-}
+enum WidgetFailureType { bindingFailure, unKnown }

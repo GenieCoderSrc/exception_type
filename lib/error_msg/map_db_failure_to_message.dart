@@ -19,5 +19,7 @@ String mapDbFailureToMessage(DbFailureType failureType) {
       return DbFailureMessages.operationCancelled;
     case DbFailureType.invalidQuery:
       return DbFailureMessages.invalidQuery;
-    }
+    case DbFailureType.invalidData:
+      return DbFailureMessages.invalidData;
+  }
 }

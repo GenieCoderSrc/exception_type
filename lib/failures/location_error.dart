@@ -9,7 +9,4 @@ class LocationError extends IFailure {
   List<Object> get props => <Object>[locationErrorType];
 }
 
-enum LocationErrorType {
-  permissionDenied,
-  permissionDeniedForever,
-}
+enum LocationErrorType { permissionDenied, permissionDeniedForever }

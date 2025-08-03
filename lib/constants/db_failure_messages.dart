@@ -8,4 +8,5 @@ class DbFailureMessages {
   static const String connectionTimeout = "Connection timed out.";
   static const String operationCancelled = "The operation was cancelled.";
   static const String invalidQuery = "The query is invalid.";
+  static const String invalidData = "The data is invalid.";
 }

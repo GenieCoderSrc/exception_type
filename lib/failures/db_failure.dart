@@ -14,6 +14,7 @@ enum DbFailureType {
   dataParsingFailure,
   referenceNotExist,
   dataNotFound,
+  invalidData,
   somethingWrong,
   connectionTimeout, // New value
   operationCancelled, // New value

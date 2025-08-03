@@ -5,7 +5,8 @@ import 'package:flutter/foundation.dart';
 
 String mapFailureToMessage(IFailure failure) {
   debugPrint(
-      'MapFailureToMsg | mapFailureToMessage | failure: ${failure.props}');
+    'MapFailureToMsg | mapFailureToMessage | failure: ${failure.props}',
+  );
   switch (failure.runtimeType) {
     case AuthFailure _:
       // Casting to AuthFailure
