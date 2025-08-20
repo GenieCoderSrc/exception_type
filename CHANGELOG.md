@@ -2,11 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.0.4
+
+### Aug 22, 2025
+
+### ✨ Updated
+
+- Updated Dart sdk to 3.9.0
+- Removed flutter_lints
+
 ## 0.0.3
+
 - added example file
 
-
 ## 0.0.2
+
 - Added predefined authentication failure messages.
 - Added database failure messages.
 - Implemented structured failure handling with custom failure classes.
@@ -15,4 +25,5 @@ All notable changes to this project will be documented in this file.
 - Created an example file demonstrating usage of the package.
 
 ## 0.0.1
+
 - Initial Release
